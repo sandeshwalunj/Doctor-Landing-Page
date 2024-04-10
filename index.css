@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit&family=Playfair+Display&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#background-image
+{
+    width: 100%;
+    height: 100%;
+}
+.section-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+    gap: 20%;
+}
+
+.card-image
+{
+    width: 200px;
+    height: 200px;
+}
+.video-image
+{
+  max-width: 100%;;
+    height: auto;
+    /* width: 300px; */
+}
+
+
+
+  .image-container img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  }
+  .image-container h2,.video-image-container h2
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  .swipe-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 20px;
+    width: 20px;
+    /* background-color: #3d3939; */
+    border: 2px solid rgb(17, 14, 14);
+    border-radius: 50%;
+    box-shadow: 20px 10px 30px 2px rgb(196, 183, 183);
+    display: inline-block;
+    margin: 0 5px; /* Adjust spacing between dots */
+    cursor: pointer;
+  }
+
+  
+  
+  .section-6-card .card
+  {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 100px;
+    background-color: grey;
+  }
+  .footer
+  {
+    margin: 0 50px;
+  }
+  .navbar
+  {
+    z-index: 100;
+  }
+
+  .nav-item:hover
+  {
+background-color: grey;
+border-radius: 10px;
+  }
+  .nav-item a
+  {
+    font-size: 1.5rem;
+  }
+  .nav-item a:hover
+  {
+color: white;
+  }
+
+.learn-skills
+{
+  top: 10%;
+  left: 20%;
+  color: white;
+}
+
+.active
+{
+  background-color: rgb(0, 236, 0);
+}
